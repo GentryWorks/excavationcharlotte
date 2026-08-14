@@ -45,7 +45,7 @@ export const siteConfig = {
   ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/YK1mfx1UzrKtclVRbfdq",
 
   // Analytics — leave empty string to disable
-  ga4Id: "",
+  ga4Id: "G-P7VL3D7ZYM",
   clarityId: "y2bmlm1r9p",
 
   // Social — replace when GBP and Facebook are created
