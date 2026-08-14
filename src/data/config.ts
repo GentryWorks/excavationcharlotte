@@ -5,8 +5,8 @@
 export const siteConfig = {
   // Business info
   businessName: "Charlotte Excavation Co.",
-  phone: "(704) 555-0100",
-  phoneRaw: "7045550100",
+  phone: "(980) 528-9768",
+  phoneRaw: "9805289768",
 
   // Location
   city: "Charlotte",
@@ -41,12 +41,12 @@ export const siteConfig = {
   },
 
   // GHL Form
-  ghlFormId: "",
-  ghlFormUrl: "",
+  ghlFormId: "YK1mfx1UzrKtclVRbfdq",
+  ghlFormUrl: "https://api.leadconnectorhq.com/widget/form/YK1mfx1UzrKtclVRbfdq",
 
   // Analytics — leave empty string to disable
   ga4Id: "",
-  clarityId: "",
+  clarityId: "y2bmlm1r9p",
 
   // Social — replace when GBP and Facebook are created
   facebook: "",
