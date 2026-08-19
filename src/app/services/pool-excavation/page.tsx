@@ -96,7 +96,7 @@ const faqSchema = {
       name: "Do I need a permit to remove a pool in Charlotte?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Most Charlotte-area municipalities require a permit for pool removal, including Mecklenburg County County, Parma, Lakewood, and Euclid. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
+        text: "Most Charlotte-area municipalities require a permit for pool removal, including Mecklenburg County, Union County, and Cabarrus County. Requirements vary by city and county. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
       },
     },
     {
@@ -175,7 +175,7 @@ const faqs = [
   },
   {
     q: "Do I need a permit to remove a pool in Charlotte?",
-    a: "Most Charlotte-area municipalities require a permit for pool removal, including Mecklenburg County County, Parma, Lakewood, and Euclid. Requirements vary by city. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
+    a: "Most Charlotte-area municipalities require a permit for pool removal, including Mecklenburg County, Union County, and Cabarrus County. Requirements vary by city and county. We help navigate local permit requirements and coordinate with your contractor to keep the project moving.",
   },
   {
     q: "What types of pools can you excavate or remove?",
@@ -312,7 +312,7 @@ export default function PoolExcavationPage() {
             Permits &amp; <span style={{ color: "#C4883A" }}>Compliance</span>
           </h2>
           <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Most Charlotte-area cities require a permit for pool removal — including Mecklenburg County County, Parma, Lakewood, Euclid, and Strongsville. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
+            Most Charlotte-area cities and counties require a permit for pool removal — including Mecklenburg County, Union County, and Cabarrus County. Requirements differ by municipality, so don&apos;t assume what applied to a neighbor applies to you. We help you understand what&apos;s required and coordinate with your contractor so nothing holds up the project. For new pool excavation, permits are typically pulled by your pool builder. We work directly with them to make sure our dig aligns with the approved plans.
           </p>
         </div>
       </section>

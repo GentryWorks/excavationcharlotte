@@ -209,7 +209,7 @@ export default function ResidentialExcavationPage() {
                 Excavation Charlotte Co. specializes in providing top-tier residential excavation services for homeowners throughout the Charlotte area. Whether you&apos;re building a new home, adding an extension, or installing a backyard feature, our team has the expertise to handle every aspect of your project with precision and care.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                As Charlotte continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Parma, Lakewood, Euclid, and Strongsville. At Excavation Charlotte Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
+                As Charlotte continues to grow, so do the needs of residential property owners in both established neighborhoods and surrounding communities like Concord, Huntersville, Matthews, and Mooresville. At Excavation Charlotte Co., we&apos;re committed to delivering exceptional excavation services, no matter the size or scope of the job.
               </p>
             </div>
             <div className="flex-1">
@@ -270,7 +270,7 @@ export default function ResidentialExcavationPage() {
             Serving <span style={{ color: "#C4883A" }}>Charlotte</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Charlotte Co. proudly serves homeowners across the Greater Charlotte area, including suburban communities and rural properties throughout Northeast North Carolina. From Parma to Westlake, Mentor to Solon — no residential project is too big or small for our team. Request a free estimate to get started.
+            Excavation Charlotte Co. proudly serves homeowners across the Greater Charlotte area, including suburban communities throughout Mecklenburg, Union, Cabarrus, and Gaston counties. From Concord to Indian Trail, Huntersville to Gastonia — no residential project is too big or small for our team. Request a free estimate to get started.
           </p>
         </div>
       </section>

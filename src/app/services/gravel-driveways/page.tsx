@@ -68,7 +68,7 @@ const faqSchema = {
       name: "Is a gravel driveway better than asphalt in Charlotte?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Gravel driveways cost less upfront and handle Northeast North Carolina's freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Northeast North Carolina's clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it's down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
+        text: "Gravel driveways cost less upfront and handle North Carolina's wet seasons better than asphalt in many situations — particularly where drainage is a concern. The Piedmont's clay-heavy soils drain poorly, and gravel allows water to pass through rather than pool on top. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it's down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
       },
     },
     {
@@ -84,7 +84,7 @@ const faqSchema = {
       name: "Do I need a permit for a gravel driveway in Charlotte?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Gravel driveways typically don't require a building permit in Charlotte. However, culvert installations at road connections often require a right-of-way permit from Mecklenburg County County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
+        text: "Gravel driveways typically don't require a building permit in Charlotte. However, culvert installations at road connections often require a right-of-way permit from Mecklenburg County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
       },
     },
     {
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "Is a gravel driveway better than asphalt in Charlotte?",
-    a: "Gravel driveways cost less upfront and handle Northeast North Carolina&apos;s freeze-thaw cycles well — asphalt can crack and heave when ground moisture freezes beneath it. Gravel also drains better on Northeast North Carolina&apos;s clay soil. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it&apos;s down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
+    a: "Gravel driveways cost less upfront and handle North Carolina&apos;s wet seasons better than asphalt in many situations — particularly where drainage is a concern. The Piedmont&apos;s clay-heavy soils drain poorly, and gravel allows water to pass through rather than pool on top. The tradeoff is that gravel needs periodic regrading and top-off, while asphalt is lower maintenance once it&apos;s down. For rural and semi-rural properties, longer driveways, or anyone watching upfront cost, gravel is usually the right call.",
   },
   {
     q: "What type of gravel is best for a driveway in Charlotte?",
@@ -134,7 +134,7 @@ const faqs = [
   },
   {
     q: "Do I need a permit for a gravel driveway in Charlotte?",
-    a: "Gravel driveways typically don&apos;t require a building permit in Charlotte. However, culvert installations at road connections often require a right-of-way permit from Mecklenburg County County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
+    a: "Gravel driveways typically don&apos;t require a building permit in Charlotte. However, culvert installations at road connections often require a right-of-way permit from Mecklenburg County or your local municipality. We flag any permit requirements during the estimate so nothing surprises you later.",
   },
   {
     q: "How often does a gravel driveway need to be regraded?",
@@ -191,7 +191,7 @@ export default function GravelDrivewaysPage() {
             Build the Perfect Gravel Driveway with Excavation <span style={{ color: "#C4883A" }}>Charlotte Co.</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            If you&apos;re looking for a durable and visually appealing driveway solution, Excavation Charlotte Co. is your trusted partner for gravel driveway installations across the Charlotte area. As neighborhoods continue to grow and expand across Northeast North Carolina, more homeowners and property developers in both urban areas and surrounding communities like Parma, Lakewood, and Euclid are turning to gravel driveways for their versatility and long-term value.
+            If you&apos;re looking for a durable and visually appealing driveway solution, Excavation Charlotte Co. is your trusted partner for gravel driveway installations across the Charlotte area. As neighborhoods continue to grow and expand across the Charlotte metro, more homeowners and property developers in both urban areas and surrounding communities like Mooresville, Kannapolis, and Indian Trail are turning to gravel driveways for their versatility and long-term value.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
             We specialize in custom gravel driveway installations designed to meet your specific needs. Whether you&apos;re upgrading an existing driveway or building a new one for a rural property or suburban home, we provide precision grading, proper drainage solutions, and professional finishes that enhance the functionality and appearance of your property.
@@ -201,11 +201,11 @@ export default function GravelDrivewaysPage() {
             Why Choose a <span style={{ color: "#C4883A" }}>Gravel Driveway?</span>
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Gravel driveways are an excellent choice for properties across the Greater Charlotte area and surrounding communities, including Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. Here&apos;s why:
+            Gravel driveways are an excellent choice for properties across the Greater Charlotte area and surrounding communities, including Concord, Gastonia, Huntersville, Matthews, and Cornelius. Here&apos;s why:
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-6">
             {[
-              { title: "Durable", desc: "With proper maintenance, gravel driveways can last for decades and handle Northeast North Carolina\u2019s freeze-thaw cycles better than asphalt." },
+              { title: "Durable", desc: "With proper maintenance, gravel driveways can last for decades and handle North Carolina\u2019s wet seasons and clay-heavy soils that drain poorly." },
               { title: "Versatile", desc: "Available in a variety of stone types and sizes to match your property\u2019s look and functional needs." },
               { title: "Eco-Friendly", desc: "Gravel is a natural material that promotes water drainage, reducing runoff and standing water issues." },
               { title: "Low Maintenance", desc: "Periodic regrading and occasional top-off keeps a gravel driveway in great shape for years." },
@@ -248,7 +248,7 @@ export default function GravelDrivewaysPage() {
             Serving <span style={{ color: "#C4883A" }}>Charlotte</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            As Charlotte and the surrounding communities continue to grow, more properties in rural areas and developing neighborhoods need reliable gravel driveway installation and repair. Excavation Charlotte Co. proudly serves the entire Greater Charlotte area, including Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina. No matter the size of your project, we have the equipment and expertise to deliver a driveway that holds up for years to come. Request a free estimate to get started.
+            As Charlotte and the surrounding communities continue to grow, more properties in rural areas and developing neighborhoods need reliable gravel driveway installation and repair. Excavation Charlotte Co. proudly serves the entire Greater Charlotte area, including Concord, Gastonia, Rock Hill, Huntersville, Matthews, Mooresville, Kannapolis, Indian Trail, Mint Hill, and Cornelius. No matter the size of your project, we have the equipment and expertise to deliver a driveway that holds up for years to come. Request a free estimate to get started.
           </p>
         </div>
       </section>

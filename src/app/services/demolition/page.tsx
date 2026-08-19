@@ -68,7 +68,7 @@ const faqSchema = {
       name: "Do I need a permit to demolish a house in Charlotte?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes. A demolition permit is required for any residential structure demolition in Charlotte and Mecklenburg County County. Surrounding municipalities like Parma, Lakewood, and Euclid have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
+        text: "Yes. A demolition permit is required for any residential structure demolition in Charlotte and Mecklenburg County. Surrounding municipalities like Concord, Huntersville, and Matthews have their own permit processes. We handle permit applications directly — you don't need to navigate that paperwork yourself.",
       },
     },
     {
@@ -126,7 +126,7 @@ const faqs = [
   },
   {
     q: "Do I need a permit to demolish a house in Charlotte?",
-    a: "Yes. A demolition permit is required for any residential structure demolition in Charlotte and Mecklenburg County County. Surrounding municipalities like Parma, Lakewood, and Euclid have their own permit processes. We handle permit applications directly — you don&apos;t need to navigate that paperwork yourself.",
+    a: "Yes. A demolition permit is required for any residential structure demolition in Charlotte and Mecklenburg County. Surrounding municipalities like Concord, Huntersville, and Matthews have their own permit processes. We handle permit applications directly — you don&apos;t need to navigate that paperwork yourself.",
   },
   {
     q: "What happens to utilities before demolition begins?",
@@ -198,7 +198,7 @@ export default function DemolitionPage() {
             Serving the Greater <span style={{ color: "#C4883A" }}>Charlotte</span> Metro Area
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Navigating the different permitting processes, regulations, and city codes across Charlotte and Mecklenburg County County — as well as surrounding municipalities — requires a local expert. Excavation Charlotte Co. is fully licensed and insured to operate across the entire metro area.
+            Navigating the different permitting processes, regulations, and city codes across Charlotte and Mecklenburg County — as well as surrounding municipalities — requires a local expert. Excavation Charlotte Co. is fully licensed and insured to operate across the entire metro area.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
             We proudly bring our precision demolition services to your neighborhood, including Charlotte, Parma, Lakewood, Euclid, Strongsville, Westlake, Mentor, Solon, Brunswick, and Medina.

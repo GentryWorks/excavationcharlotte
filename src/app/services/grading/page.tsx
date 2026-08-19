@@ -194,7 +194,7 @@ export default function GradingPage() {
             Excavation Charlotte Co. is your go-to provider for professional grading and sitework services across the Charlotte area. Whether you&apos;re preparing a small residential lot or a large-scale commercial development, our team delivers precise, reliable solutions tailored to your project&apos;s unique needs.
           </p>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            With Charlotte and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Parma, Lakewood, Euclid, Strongsville, and beyond — trust Excavation Charlotte Co. to lay the groundwork for success. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
+            With Charlotte and the surrounding communities continuing to grow, property owners in both established neighborhoods and developing areas — including Concord, Huntersville, Matthews, and Mooresville — trust Excavation Charlotte Co. to lay the groundwork for success. The Piedmont's clay soils expand when wet and drain poorly, making proper grading essential on every site. From creating level surfaces for new construction to optimizing drainage systems, no job is too big or too small for our experienced team.
           </p>
 
           <h2 className="text-2xl md:text-3xl font-extrabold mb-6 mt-10" style={{ color: "#1B2A4A" }}>
@@ -207,7 +207,7 @@ export default function GradingPage() {
             {[
               { title: "Improved Drainage", desc: "Proper grading prevents water pooling and reduces the risk of flooding around your structure." },
               { title: "Enhanced Stability", desc: "A well-prepared site ensures the structural integrity of your building from the ground up." },
-              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Charlotte and Mecklenburg County County." },
+              { title: "Compliance", desc: "Accurate grading and sitework meet local codes and regulations across Charlotte and Mecklenburg County." },
               { title: "Safety", desc: "Level, stable ground reduces hazards during and after construction for everyone on-site." },
             ].map((item) => (
               <div key={item.title} className="flex items-start gap-3">
@@ -248,7 +248,7 @@ export default function GradingPage() {
             Serving <span style={{ color: "#C4883A" }}>Charlotte</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Charlotte Co. proudly serves both residential and commercial clients throughout the Greater Charlotte area. Our services extend to surrounding communities including Westlake, Mentor, Solon, Brunswick, and Medina, ensuring that no project is out of reach. Request a free estimate to get started.
+            Excavation Charlotte Co. proudly serves both residential and commercial clients throughout the Greater Charlotte area. Our services extend to surrounding communities including Concord, Gastonia, Rock Hill, Huntersville, Matthews, Mooresville, Kannapolis, Indian Trail, Mint Hill, and Cornelius. Request a free estimate to get started.
           </p>
         </div>
       </section>

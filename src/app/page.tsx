@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { siteConfig } from "@/data/config";
+import HeroFormEmbed from "@/components/HeroFormEmbed";
 import heroImg from "@/assets/excavator-hero-charlotte.webp";
 import fleetImg from "@/assets/excavation-fleet-equipment-charlotte.webp";
 import cardGrading from "@/assets/card-grading-charlotte.webp";
@@ -227,61 +228,38 @@ export default function HomePage() {
           aria-hidden="true"
         />
 
-        <div className="relative max-w-[1200px] mx-auto px-6 text-center">
-          <div className="mb-6 inline-block">
-            <span
-              className="text-white text-sm font-semibold px-4 py-2 rounded-full"
-              style={{ backgroundColor: "rgba(27,42,74,0.7)" }}
+        <div className="relative max-w-[1200px] mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-10 items-center">
+          {/* Left — headline + CTA (2/3 width) */}
+          <div className="md:col-span-2">
+            <div className="mb-6 inline-block">
+              <span
+                className="text-white text-sm font-semibold px-4 py-2 rounded-full"
+                style={{ backgroundColor: "rgba(27,42,74,0.7)" }}
+              >
+                Residential &amp; Commercial
+              </span>
+            </div>
+
+            <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
+              Excavating Company in{" "}
+              <span style={{ color: "#C4883A" }}>Charlotte</span>
+            </h1>
+
+            <p className="text-white text-lg mb-10 leading-relaxed" style={{ opacity: 0.85 }}>
+              Licensed &amp; insured excavation contractor serving {siteConfig.city} and the surrounding suburbs. Your project gets done right — on time, written estimate upfront, no surprises. Grading, land clearing, residential excavation, pool excavation, gravel driveways, and demolition.
+            </p>
+
+            <Link
+              href={`tel:+1${siteConfig.phoneRaw}`}
+              className="inline-block text-white font-bold px-8 py-4 rounded text-xl transition-opacity hover:opacity-90 border-2 border-white"
+              style={{ backgroundColor: "#C4883A" }}
             >
-              Residential &amp; Commercial
-            </span>
+              Call Now {siteConfig.phone}
+            </Link>
           </div>
-
-          <h1 className="text-4xl md:text-6xl font-extrabold text-white leading-tight mb-6">
-            Excavating Company in{" "}
-            <span style={{ color: "#C4883A" }}>Charlotte</span>
-          </h1>
-
-          <p className="text-white text-lg mb-10 leading-relaxed max-w-2xl mx-auto" style={{ opacity: 0.85 }}>
-            Licensed &amp; insured excavation contractor serving {siteConfig.city} and the surrounding suburbs. Grading, land clearing, residential excavation, pool excavation, gravel driveways, and demolition.
-          </p>
-
-          <Link
-            href={`tel:+1${siteConfig.phoneRaw}`}
-            className="inline-block text-white font-bold px-8 py-4 rounded text-xl transition-opacity hover:opacity-90 border-2 border-white"
-            style={{ backgroundColor: "#C4883A" }}
-          >
-            Call Now {siteConfig.phone}
-          </Link>
-        </div>
-      </section>
-
-      {/* Free Quote Form */}
-      <section className="py-16" style={{ backgroundColor: "#F5F5F5" }}>
-        <div className="max-w-[900px] mx-auto px-4">
-          <h2 className="text-3xl md:text-4xl font-extrabold text-center mb-3" style={{ color: "#1B2A4A" }}>
-            <span style={{ color: "#C4883A" }}>↓</span>{" "}Get Your Free Quote{" "}<span style={{ color: "#C4883A" }}>↓</span>
-          </h2>
-          <p className="text-center text-base mb-8" style={{ color: "#6B7280" }}>
-            Fill out the form below and we&apos;ll follow up within 24 hours.
-          </p>
-          <div className="bg-white rounded-xl shadow-sm pt-6 pb-4">
-            <iframe
-              src={siteConfig.ghlFormUrl}
-              style={{ width: "100%", border: "none", borderRadius: "8px" }}
-              id={`inline-${siteConfig.ghlFormId}`}
-              data-layout="{&quot;id&quot;:&quot;INLINE&quot;}"
-              data-trigger-type="alwaysShow"
-              data-trigger-value=""
-              data-activation-type="alwaysActivated"
-              data-activation-value=""
-              data-deactivation-type="neverDeactivate"
-              data-deactivation-value=""
-              data-form-name="Excavating Company Charlotte"
-              data-layout-iframe-id={`inline-${siteConfig.ghlFormId}`}
-              data-form-id={siteConfig.ghlFormId}
-              title="Excavating Company Charlotte"
-            />
+          {/* Right — form with transparent background (1/3 width) */}
+          <div className="bg-transparent">
+            <HeroFormEmbed />
           </div>
         </div>
       </section>
@@ -328,7 +306,7 @@ export default function HomePage() {
                 We own and operate a full fleet — excavators, skid steers, bulldozers, and dump trucks. We match the machine to your project, not the other way around. That means no oversized equipment tearing up your yard, and no underpowered machines dragging out your timeline.
               </p>
               <p className="text-base leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                The Charlotte area&apos;s glacial till and clay soils are denser and more water-saturated than most homeowners expect — especially during the long Pacific Northwest rainy season. Our crew knows how to read site conditions and adjust the plan before a problem becomes a delay. We bring that hands-on experience to every job, from a backyard pool dig in Bellevue to a full land clearing project in Mecklenburg County.
+                The Piedmont's weathered clay soils — sitting over decomposed rock called saprolite — drain poorly and expand when wet. Our crew knows how to read these site conditions and adjust the plan before a problem becomes a delay. We bring that hands-on knowledge to every job, from a backyard pool dig in Huntersville to a full land clearing project in Union County.
               </p>
             </div>
             <div className="flex-shrink-0 w-full md:w-[520px] relative rounded-xl overflow-hidden" style={{ aspectRatio: "4/3" }}>
@@ -367,43 +345,37 @@ export default function HomePage() {
                 name: "Grading & Sitework Charlotte, NC",
                 slug: "grading",
                 img: cardGrading,
-                tagline: "Precision Ground Prep for Any Build",
-                description: "Our grading contractors in Charlotte handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Mecklenburg County and the greater Lake Norman area. Proper sitework is the foundation every project depends on — and we get it right before anything else goes in the ground.",
+                description: "Our grading contractors in Charlotte handle rough grading, finish grading, drainage correction, and building pad prep for residential and commercial sites across Mecklenburg County and the surrounding region. The Piedmont's weathered clay soils — sitting over decomposed rock called saprolite — drain poorly and expand when wet. Proper grading prevents the drainage problems that are common with Charlotte's clay-heavy terrain.",
               },
               {
                 name: "Land Clearing Services Charlotte",
                 slug: "land-clearing",
                 img: cardLandClearing,
-                tagline: "From Overgrown to Ready-to-Build",
-                description: "Our land clearing service in Charlotte handles trees, brush, stumps, and debris of any size — from a single overgrown lot in Renton to multi-acre clearing in Mecklenburg County. We leave the site graded and ready to build on, with all material hauled off-site.",
+                description: "Our land clearing service in Charlotte handles trees, brush, stumps, and debris of any size — from a single lot in Matthews to multi-acre clearing in Union County. The Piedmont's heavy clay soils make stump and root removal more involved than in sandier ground. We leave your site graded and ready to build, with all material hauled off-site.",
               },
               {
                 name: "Gravel Driveway Installation Charlotte",
                 slug: "gravel-driveways",
                 img: cardGravel,
-                tagline: "Durable Driveways Built for the Pacific Northwest",
-                description: "We install gravel driveways in Charlotte and surrounding areas built to handle North Carolina's wet winters and heavy rainfall. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway holds up year after year without washing out or rutting.",
+                description: "We install gravel driveways in Charlotte and surrounding areas built to hold up through North Carolina's wet seasons and the region's clay-heavy soils that drain poorly. Every job includes proper excavation, base stone, drainage grading, and compaction — so your driveway doesn't rut out or wash away after heavy rain.",
               },
               {
                 name: "Pool Excavation Charlotte, NC",
                 slug: "pool-excavation",
                 img: cardPool,
-                tagline: "Accurate Digs That Keep Your Pool Project on Schedule",
-                description: "We provide pool excavation in Charlotte and the Greater Lake Norman area, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Wrong dimensions or a soft bottom are expensive to fix after the shell goes in — we make sure that's never the issue.",
+                description: "We provide pool excavation in Charlotte and the greater metro, working directly with pool contractors to deliver accurate, clean digs that stay on spec. Piedmont clay soils can be dense and slow to move — we bring the right equipment and verify utility locations through NC 811 before any dig begins.",
               },
               {
                 name: "Residential Excavation Charlotte",
                 slug: "residential-excavation",
                 img: cardResExcavation,
-                tagline: "Foundation Digs, Utility Trenches, and More",
-                description: "Our residential excavation contractors in Charlotte handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across King, Snohomish, and Pierce counties. We give your contractor a clean, properly prepped site to build from.",
+                description: "Our residential excavation contractors in Charlotte handle foundation digs, basement excavation, utility trenching, backfill, and compaction for homeowners and builders across Mecklenburg, Union, Cabarrus, and Gaston counties. Charlotte's Piedmont clay expands when wet and shrinks in dry periods — proper compaction is critical to a stable foundation that won't shift with the seasons.",
               },
               {
                 name: "Residential Demolition Charlotte, NC",
                 slug: "demolition",
                 img: cardDemolition,
-                tagline: "Safe, Efficient Tear-Downs Done Right",
-                description: "Looking for a demolition contractor in Charlotte? We handle residential demolition for garages, sheds, decks, and small structures across the Greater Charlotte area. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next.",
+                description: "Looking for a demolition contractor in Charlotte? We handle residential demolition for garages, sheds, decks, and small structures across the greater Charlotte metro. We disconnect utilities, take the structure down safely, haul everything off-site, and leave the footprint clean and ready for whatever comes next. All demolition work is properly permitted through the City of Charlotte or applicable county authority.",
               },
             ].map((service, i) => (
               <div

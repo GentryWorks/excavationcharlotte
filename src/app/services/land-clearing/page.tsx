@@ -93,7 +93,7 @@ const faqSchema = {
       name: "Do I need a permit to clear trees in Charlotte?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Permit requirements vary by municipality. Some Charlotte-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Parma, Lakewood, and Strongsville each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
+        text: "Permit requirements vary by municipality. Some Charlotte-area jurisdictions require tree removal permits or tree preservation plans depending on tree size and species. Mecklenburg County, Union County, and the City of Charlotte each have their own tree ordinances. We flag any known requirements for your area during the estimate.",
       },
     },
   ],
@@ -197,7 +197,7 @@ export default function LandClearingPage() {
                 Excavation Charlotte Co. offers professional land clearing services for residential and commercial projects throughout the Charlotte area. Whether you&apos;re preparing a lot for new construction, expanding your property, or clearing space for landscaping, we provide efficient and reliable solutions tailored to your project.
               </p>
               <p className="text-sm leading-relaxed" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. Serving communities across Northeast North Carolina — including Parma, Lakewood, Euclid, Strongsville, and beyond — Excavation Charlotte Co. is your trusted partner for thorough and environmentally conscious land clearing.
+                From densely wooded lots to smaller spaces in suburban or rural areas, we have the equipment and expertise to handle projects of all sizes. The Piedmont's heavy clay soils make stump and root removal more involved than in sandier ground — we have the equipment to do it right. Serving communities across the Charlotte metro — including Concord, Huntersville, Matthews, and Mooresville — Excavation Charlotte Co. is your trusted partner for thorough and efficient land clearing.
               </p>
             </div>
             <div className="flex-1">
@@ -253,7 +253,7 @@ export default function LandClearingPage() {
             Serving <span style={{ color: "#C4883A" }}>Charlotte</span> and Beyond
           </h2>
           <p className="text-sm leading-relaxed mb-6" style={{ color: "#2D2D2D", opacity: 0.85 }}>
-            Excavation Charlotte Co. is proud to serve the Greater Charlotte area, including growing neighborhoods and rural communities like Westlake, Mentor, Solon, Brunswick, and Medina. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
+            Excavation Charlotte Co. is proud to serve the Greater Charlotte area, including communities like Concord, Gastonia, Rock Hill, Huntersville, Matthews, Mooresville, Kannapolis, Indian Trail, Mint Hill, and Cornelius. No matter where your property is located or the size of the job, we&apos;re equipped to handle your land clearing needs. Request a free estimate to get started.
           </p>
         </div>
       </section>
